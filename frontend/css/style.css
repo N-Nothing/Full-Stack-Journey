@@ -1,0 +1,14 @@
+div {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+    margin: 80px;
+    border: 2px solid rgb(85, 3, 3);
+    border-radius: 10px;
+
+    width: 300px;
+    max-width: 100%;   /* keeps it from getting too wide */
+
+}
