@@ -10,5 +10,12 @@ div {
 
     width: 300px;
     max-width: 100%;   /* keeps it from getting too wide */
+}
 
+hr {
+  border: none;
+  height: 4px;
+  background: linear-gradient(to right, #4e54c8, #f3f4fd);
+  width: 95%;
+  margin: 20px auto;
 }
