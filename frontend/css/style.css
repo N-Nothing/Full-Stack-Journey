@@ -1,6 +1,16 @@
+body {
+    background: linear-gradient(to right, rgb(234, 255, 241), #ffffff, #eefdff);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
 div {
     color: rgb(255, 255, 255);
     background-color: black;
+    background-image: url('../images/changli.png');
+    background-position: center top; /* or left bottom, right center, etc. */
+    background-size: cover; /* or contain, or specific size */
     text-align: center;
     font-size: 50px;
     padding: 50px;
@@ -18,4 +28,35 @@ hr {
   background: linear-gradient(to right, #4e54c8, #f3f4fd);
   width: 95%;
   margin: 20px auto;
+}
+
+.home-page {
+    text-align: center;
+    font-size: 60px;
+    padding: 1px;
+    margin: 1px;
+}
+
+.explore-button {
+    display: block;
+    margin: 20px auto;
+    padding: 1px 1px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+img {
+
+    border-radius: 3%;
+    display: block;
+    margin-left: 800px;  /* moves image to the right */
+    margin-top: -500px;  /* space above image */
+    width: 300px;
+    max-width: 100%;   /* keeps it from getting too wide */
+    height: auto;
 }
