@@ -1,0 +1,14 @@
+# Python and virtual environments
+.venv/
+__pycache__/
+*.pyc
+
+# VS Code settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Node projects (if you later use JS)
+node_modules/
