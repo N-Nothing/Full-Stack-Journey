@@ -5,46 +5,56 @@ body {
     padding: 20px;
 }
 
-div {
+div.welcome {
     color: rgb(255, 255, 255);
     background-color: black;
-    background-image: url('../images/changli.png');
     background-position: center top; /* or left bottom, right center, etc. */
     background-size: cover; /* or contain, or specific size */
     text-align: center;
     font-size: 50px;
-    padding: 50px;
-    margin: 80px;
+    padding: 50px 50px;
+    padding-top: 10px;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 500px;
+    margin-top: 20px;
     border: 2px solid rgb(85, 3, 3);
     border-radius: 10px;
 
+    height: 100px;
     width: 300px;
     max-width: 100%;   /* keeps it from getting too wide */
 }
 
 hr {
-  border: none;
-  height: 4px;
-  background: linear-gradient(to right, #4e54c8, #f3f4fd);
-  width: 95%;
-  margin: 20px auto;
+
+    padding-bottom: 0px;
+    border: none;
+    height: 4px;
+    background: linear-gradient(to right, #4e54c8, #f3f4fd);
+    width: 95%;
+    margin: 20px auto;
 }
 
 .home-page {
-    text-align: center;
-    font-size: 60px;
+
+    text-align: left;
+    font-size: 50px;
     padding: 1px;
-    margin: 1px;
+    margin-left: 100px;
+    margin-top: 20px;
 }
 
 .explore-button {
+
     display: block;
-    margin: 20px auto;
-    padding: 1px 1px;
+    margin-left: 600px;  /* moves button to the right */
+    margin-top: 10px;  /* space above button */
+    padding: 8px 16px;
     font-size: 18px;
     color: rgb(0, 0, 0);
     background-color: #ffffff;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -54,9 +64,28 @@ img {
 
     border-radius: 3%;
     display: block;
-    margin-left: 800px;  /* moves image to the right */
-    margin-top: -500px;  /* space above image */
+    margin-left: 830px;  /* moves image to the right */
+    margin-top: -510px;  /* space above image */
+    text-align: center;
     width: 300px;
     max-width: 100%;   /* keeps it from getting too wide */
     height: auto;
+}
+
+.welcome {
+
+    text-align: center;
+    font-size: 60px;
+    padding: 1px;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+.header {
+
+    text-align: center;
+    font-size: 20px;
+    padding: 1px;
+    margin-left: 0px;
+    margin-top: 20px;
 }
