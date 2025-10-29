@@ -4,3 +4,5 @@ A personal learning project where I build a full-stack website from scratch usin
 This will be a dynamic website using js
 
 ## 🧩 Project Structure
+
+1.
